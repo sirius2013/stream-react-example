@@ -11,7 +11,6 @@ var config        = require('./config'),
     jwt           = require('restify-jwt'),
     Mail          = require('winston-mail').Mail,
     Sentry        = require('winston-sentry');
-
 /**
  * Global Dependencies
  */
